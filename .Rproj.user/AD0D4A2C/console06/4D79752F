@@ -1097,3 +1097,46 @@ Fast-forward
  .gitignore | 2 [32m++[m
  1 file changed, 2 insertions(+)
 ]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git add .
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/AD0D4A2C/console06/4D79752F[m
+	[32mdeleted:    NBA_ds.Rproj[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/AD0D4A2C/console06/4D79752F[m
+
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git push[K[K[K[Kcommit -m"hm"
+[master 8ccff5c] hm
+ Committer: Zach Merritt <zachmerritt@Zachs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 43 insertions(+), 13 deletions(-)
+ delete mode 100644 NBA_ds.Rproj
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 1.21 KiB | 1.21 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/zach-merritt/NBA_ds.git
+   91e1466..8ccff5c  master -> master
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git pushcommit -m"hm"[7Pstatus[1Padd .
