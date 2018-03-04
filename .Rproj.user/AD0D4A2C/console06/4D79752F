@@ -1140,3 +1140,44 @@ remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1) 
 To https://github.com/zach-merritt/NBA_ds.git
    91e1466..8ccff5c  master -> master
 ]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git pushcommit -m"hm"[7Pstatus[1Padd .
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git add .[1Ppushcommit -m"hm"
+[master bdaa61d] hm
+ Committer: Zach Merritt <zachmerritt@Zachs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 44 insertions(+), 1 deletion(-)
+ create mode 100644 .DS_Store
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git commit -m"hm"[8Padd .commit -m"hm"[Kgit commit -m"hm"[8Padd .[1Ppush
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 1.10 KiB | 1.10 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/zach-merritt/NBA_ds.git
+   8ccff5c..bdaa61d  master -> master
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git pushcommit -m"hm"push[K[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   .Rproj.user/AD0D4A2C/console06/4D79752F[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git commit -a
+[?2004hAborting commit due to empty commit message.
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git add .
