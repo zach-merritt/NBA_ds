@@ -1181,3 +1181,41 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git commit -a
 [?2004hAborting commit due to empty commit message.
 ]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git add .
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git commit -m"hello"
+[master 82d6d44] hello
+ Committer: Zach Merritt <zachmerritt@Zachs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 43 insertions(+), 2 deletions(-)
+ rewrite .Rproj.user/AD0D4A2C/console06/INDEX001 (68%)
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.43 KiB | 1.43 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/zach-merritt/NBA_ds.git
+   bdaa61d..82d6d44  master -> master
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git push[Kgit pull
+remote: Counting objects: 3, done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/zach-merritt/NBA_ds
+   82d6d44..076449b  master     -> origin/master
+Updating 82d6d44..076449b
+Fast-forward
+ .gitignore | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+]0;~/NBA_dsZachs-MacBook-Pro:NBA_ds zachmerritt$ git pullshcommit -m"hello"add .[K
