@@ -4,3 +4,5 @@
 .Ruserdata
 NBA_ds.Rproj
 data
+.DS_Store
+.Rproj.user
